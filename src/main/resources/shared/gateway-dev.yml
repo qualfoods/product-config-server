@@ -1,0 +1,9 @@
+
+zuul:
+  routes:
+    inventory:
+      path: /api/**
+      serviceId: http://0.0.0.0:7078
+      
+server:
+  port: 7070
